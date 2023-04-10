@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title> Food Application</title>
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+            header ul{
+                list-style-type:none;
+                margin:0;
+                padding:0;
+                overflow:hidden;
+                background-color: grey;
+            }
+            header li{
+                float:left;
+            }
+            header li a{
+                display:block;
+                color:white;
+                padding:14px 16px;
+                text-align:center;
+                text-decoration: none;
+            }
+            header li a:hover{
+                background-color:black;
+            }
+            .text-content {
+                text-decoration:none;
+                color:indigo;
+            }
+            .text-content ul{
+                text-decoration:none;
+                color:black;
+            }
+            .text-content a{
+                font-size:larger;
+                text-decoration:none;
+                color:maroon;
+            }
+            .labels {
+                font-size:large;
+                font-weight:bold;
+                margin-left:450px;
+                margin-bottom:40px;
+            }
+            .images{
+                width:70%;
+                margin:0 auto;
+            }
+            .fooditem{
+                width:1000px;
+                height:500px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color:pink;">
+        <header>
+            <ul>
+                <li><a href="#">Index</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </header>
+        <div class="main">
+          <div class="text-content">
+                <h1> Top 5 favorite foods</h1>
+                <ul>
+                    <li> <a href="#chickenPennePasta">Chicken Penne Pasta</a></li>
+                    <li> <a href="#croissants">Croissants</a></li>
+                    <li> <a href="#donuts">Donuts</a></li>
+                    <li> <a href="#pancake">Pancake</a></li>
+                    <li> <a href="#waffles">Waffles</a></li>
+                </ul>
+          </div>
+        </div>
+        <div class = "images">
+            <div id="chickenPennePasta">
+                <img src="chickenPennePasta.jpg" class="fooditem" />
+            </div>
+            <p class="labels">Chicken Penne Pasta</p>
+            <div id="croissants">
+                <img src="croissants.jpg" class="fooditem" />
+            </div>
+            <p class="labels">Croissants</p>
+            <div id="donuts">
+                <img src="donuts.jpg" class="fooditem" />
+            </div>
+            <p class="labels">Donuts</p>
+            <div id="pancake">
+                <img src="pancake.jpg" class="fooditem" />   
+            </div>
+            <p class="labels">Pancake</p>
+            <div id="waffles">
+                <img src="waffles.jpg" class="fooditem" />
+            </div>
+            <p class="labels">Waffles</p>
+        </div>
+    </body>
+</html>
